@@ -1,0 +1,61 @@
+body {
+  background-color: #ebebeb;
+}
+
+body #counter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body #counter h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin: 10px;
+}
+
+body #num {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body #num #p1 {
+  margin: 0;
+  font-size: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1c0f64;
+}
+
+body #btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body #btn button {
+  padding: 20px 60px 20px 60px;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body #btn #plus {
+  margin-right: 5px;
+  background-color: #a2ff2871;
+  border: 1px solid #5f9618;
+}
+
+body #btn #plus:hover {
+  background-color: #629c1771;
+}
+
+body #btn #minus {
+  background-color: #ff362871;
+  border: 1px solid #961818;
+}
+
+body #btn #minus:hover {
+  background-color: #b6281ea4;
+}
+/*# sourceMappingURL=Style.css.map */
